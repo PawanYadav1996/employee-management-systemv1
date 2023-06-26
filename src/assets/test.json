@@ -1,0 +1,43 @@
+{
+  "pricing": {
+    "data": null,
+    "message": "org.springframework.web.client.ResourceAccessException: I/O error on GET request for \"http://10.28.137.78:8084/mpx-pricing-svc/pricing/feedAggregates\": Connection reset; nested exception is java.net.SocketException: Connection reset"
+  },
+  "monitoring": {
+    "data": {
+      "Treasury": {
+        "OverAll": {
+          "min": 64.5,
+          "max": 1.4402471319e7,
+          "avg": 474989.5225329997
+        },
+        "BrownFieldTravel": {
+          "min": 0.0,
+          "max": 1.2945085e7,
+          "avg": 4423.782816306819
+        },
+        "goldFieldTravel": {
+          "min": 53.0,
+          "max": 1.4401284e7,
+          "avg": 470564.335070622
+        },
+        "dbSave": {
+          "min": 0.383,
+          "max": 301.84299999999996,
+          "avg": 1.4046460841820814
+        },
+        "overAll": {
+          "max": 1.4402471319e7,
+          "avg": 474989.5225329997
+        },
+        "brownFieldTravel": {
+          "min": 0.0,
+          "max": 1.2945085e7,
+          "avg": 4423.782816306819
+        }
+      }
+    },
+    "message": "Success"
+  },
+  "message": null
+}
